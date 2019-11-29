@@ -68,6 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HomePage.aspx" />
+    <Content Include="JavaScript\DynamicExample.html" />
+    <Content Include="JavaScript\DynamicExample.js" />
+    <Content Include="JavaScript\DynamicHTML.html" />
+    <Content Include="JavaScript\DynamicHTML.js" />
+    <Content Include="JavaScript\HelloWorldMessages.html" />
+    <Content Include="JavaScript\HelloWorldMessages.js" />
+    <Content Include="JavaScript\Variables.html" />
+    <Content Include="JavaScript\Variables.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,7 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="HTML\" />
-    <Folder Include="JavaScript\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
