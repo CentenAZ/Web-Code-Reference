@@ -68,12 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HomePage.aspx" />
+    <Content Include="HTML\HtmlPage1.html" />
+    <Content Include="JavaScript\ArrayPushingPopping.js" />
     <Content Include="JavaScript\DynamicExample.html" />
     <Content Include="JavaScript\DynamicExample.js" />
     <Content Include="JavaScript\DynamicHTML.html" />
     <Content Include="JavaScript\DynamicHTML.js" />
     <Content Include="JavaScript\HelloWorldMessages.html" />
     <Content Include="JavaScript\HelloWorldMessages.js" />
+    <Content Include="JavaScript\ArrayPushingPopping.html" />
     <Content Include="JavaScript\Variables.html" />
     <Content Include="JavaScript\Variables.js" />
     <Content Include="Web.config" />
@@ -97,9 +100,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="HTML\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -28,9 +28,11 @@ var allowed = true; // Boolean Literal
 var nameMiddle;     // Null
 var nameMiddleInitial;  // Null
 
-console.log("My Age: ", numberAge);
-document.getElementById("myMessage").innerText = "My Age: " + numberAge;
-document.getElementById("myMessage2").innerHTML = "Variable 1 is " + variable1 + "<br/>"
-document.getElementById("myMessage3").innerHTML = "Variable 2 is " + variable2 + "<br/>"
+var myArray = [];   // an Array
+var myObject = {};  // an Object
 
-var names = ["Jack", "Isabella", "Tristan"]
+var names = ["Jack", "Isabella", "Tristan"];    // Arrays can store strings, numbers/values, booleans. Any type of data
+names[3] = "Jay";
+names[4] = "Kaz";
+console.log(names);
+console.log("Test", names[3].substring(0, 1));
