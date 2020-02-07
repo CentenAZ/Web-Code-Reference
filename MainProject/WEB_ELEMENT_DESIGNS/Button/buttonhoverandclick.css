@@ -1,0 +1,95 @@
+﻿/*========================================================================*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* Custom Font Import */
+/* font-family: 'Roboto', sans-serif; */
+
+/* Main */
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2d3436;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #0984e3;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease
+}
+    .button::before {
+        background-color: #0984e3;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        transition: all 0.6s ease;
+    }
+
+
+/* INDIVIDUAL BUTTON PROPERTIES */
+.bttn1 {
+}
+
+    .bttn1::before {
+        width: 0;
+        height: 100%;
+    }
+
+    .bttn1:hover::before {
+        width: 100%;
+    }
+
+.bttn2 {
+}
+
+    .bttn2::before {
+        width: 100%;
+        height: 0;
+    }
+
+    .bttn2:hover::before {
+        height: 100%;
+    }
+
+.bttn3 {
+}
+
+    .bttn3::before {
+        width: 100%;
+        height: 0;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+
+    .bttn3:hover::before {
+        height: 380%;
+    }
+
+.bttn4 {
+}
+
+    .bttn4::before {
+        width: 100%;
+        height: 0;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .bttn4:hover::before {
+        height: 380%;
+    }

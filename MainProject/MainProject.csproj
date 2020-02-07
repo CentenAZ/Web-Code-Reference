@@ -79,6 +79,10 @@
     <Content Include="JavaScript\ArrayPushingPopping.html" />
     <Content Include="JavaScript\Variables.html" />
     <Content Include="JavaScript\Variables.js" />
+    <Content Include="WEB_ELEMENT_DESIGNS\Button\buttonhoverandclick.css" />
+    <Content Include="WEB_ELEMENT_DESIGNS\Button\buttonhoverandclick.html" />
+    <Content Include="WEB_ELEMENT_DESIGNS\Textbox\glowingbordertextbox.css" />
+    <Content Include="WEB_ELEMENT_DESIGNS\Textbox\glowingbordertextbox.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
