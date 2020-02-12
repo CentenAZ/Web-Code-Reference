@@ -29,7 +29,7 @@ body {
     padding: 14px 60px;
     text-transform: uppercase;
     overflow: hidden;
-    transition: 1s all ease
+    transition: 1s all ease;
 }
     .button::before {
         background-color: #0984e3;
