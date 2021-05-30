@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <!-- Heading Styles -->
+    <h1>Heading Style 1</h1>
+    <h2>Heading Style 2</h2>
+    <h3>Heading Style 3</h3>
+    <h4>Heading Style 4</h4>
+    <h5>Heading Style 5</h5>
+    <h6>Heading Style 6</h6>
+
+    <br />
+    <!-- Paragraph -->
+    <p>Paragraph 1.0</p>
+    <p>Paragraph 2.0.
+        paragraph 2.1
+    </p>
+    <p style="color:red">A Paragraph</p>
+    <!-- style is used to format the text -->
+
+    <br />
+    <!-- Hyperlink Embed -->
+    <p><a href="https://www.google.com">This is a link. It leads to google.com</a></p>
+    <!-- <a> is used to define a hyperlink. href defines the url -->
+    <p><a href="https://www.google.com" target="_self">This is a link that would open in a the same window/tab</a></p>
+    <p><a href="https://www.google.com" target="_blank">This is a link that would open in a new tab</a></p>
+    <p><a href="https://www.google.com" target="_parent">This is a link that would open in the parent frame</a></p>
+    <p><a href="https://www.google.com" target="_top">This is a link that would open in the full body of a window</a>
+    <p><a href="mailto:someone@example.com">Send email to someone@example.com</a></p>
+    <p><a href="#jump1">This link will jump to text formats section</a></p>
+
+    <br />
+    <!-- Image Embed -->
+    <img src="html5_logo.png" alt="HTML5 LOGO" width="100" height="100">
+    <!-- <img> is used to embed an image. src is to specify the path to the image, alt specifies alternate text for an image -->
+
+    <br />
+    <!-- Image Hyperlink -->
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            <img src="google_logo.jpg" alt="Google Image Redirect" style="width:200px;height:100px;">
+        </a>
+        The image is hyperlinked
+    </p>
+
+    <br />
+    <!-- Image Map -->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/IPhone">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
+    </map>
+
+    <br /><br />
+    <!-- Buttons -->
+    <button>This is a button</button>
+
+    <br />
+    <!-- Text Formats -->
+    <p id="jump1"><b>This is BOLD text.</b></p>
+    <p><strong>This is STRONG text.</strong></p>
+    <p><i>This is ITALICIZED text.</i></p>
+    <p><em>This is EMPASIZED text.</em></p>
+    <p><mark>This is MARKED text.</mark></p>
+    <p><small>This is SMALLER text.</small></p>
+    <p><del>This is DELETED text.</del></p>
+    <p><ins>This is INSERTED text.</ins></p>
+    <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+
+    <br />
+    <!-- Paragraph Formats -->
+    <pre>
+Preformatted Text
+        Some preformatted text
+
+            this file is an html cheatsheet
+        </pre>
+    <blockquote
+        cite="https://cloudblogs.microsoft.com/windowsserver/2021/03/02/announcing-windows-server-2022-now-in-preview/">
+        THIS IS A BLOCKQUOTED TEXT..... Today we are announcing that Windows Server 2022 is now in preview, the next
+        release in our Long-Term Servicing Channel (LTSC), which will be generally available later this calendar year.
+        It builds on Windows Server 2019, our fastest adopted Windows Server ever. This release includes advanced
+        multi-layer security, hybrid capabilities with Azure, and a flexible platform to modernize applications with
+        containers.</blockquote>
+    <br />
+    <p>Some <q>easy quotations using the q element</q></p>
+    <p><cite>Citations</cite> made easy.</p>
+
+    <p>Abbrevations made easy, just hover over the words: <abbr title="Windows 10">Win10</abbr> <abbr
+            title="Red Hat Enterprise Linux">RHEL</abbr> <abbr title="Virtualbox">vbox</abbr></p>
+    <address>
+        Written by Someone.<br>
+        Visit us at:<br>
+        apple.com<br>
+        One Apple Park Way<br>
+        Cupertino, CA 95014
+    </address>
+
+    <br />
+    <!-- Table -->
+    <table style="width:100%; border:1px solid black; border-collapse:collapse;">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>
+
+    <br />
+    <!-- Horizontal Divider/Line -->
+    <hr />
+
+    <!-- Bulleted Lists -->
+    <ul>
+        <li> www.google.com </li>
+        <li> www.bing.com </li>
+        <li> www.duckduckgo.com </li>
+        <li> www.msn.com </li>
+    </ul>
+    <ul type="square">
+        <li> www.google.com </li>
+        <li> www.bing.com </li>
+        <li> www.duckduckgo.com </li>
+        <li> www.msn.com </li>
+    </ul>
+    <ul type="circle">
+        <li> www.google.com </li>
+        <li> www.bing.com </li>
+        <li> www.duckduckgo.com </li>
+        <li> www.msn.com </li>
+    </ul>
+    <ol>
+        <li> www.google.com </li>
+        <li> www.bing.com </li>
+        <li> www.duckduckgo.com </li>
+        <li> www.msn.com </li>
+    </ol>
+    <ol type="A" start="1">
+        <li> www.google.com </li>
+        <li> www.bing.com </li>
+        <li> www.duckduckgo.com </li>
+        <li> www.msn.com </li>
+    </ol>
+    <ol type="I" start="1">
+        <li> www.google.com </li>
+        <li> www.bing.com </li>
+        <li> www.duckduckgo.com </li>
+        <li> www.msn.com </li>
+    </ol>
+    <ol type="A" start="1">
+        <li> www.google.com </li>
+        <ul>
+            <li> www.bing.com </li>
+        </ul>
+        <li> www.duckduckgo.com </li>
+        <ul>
+            <li> www.msn.com </li>
+        </ul>
+    </ol>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+            <!-- ul defines unordered list. ol defines ordered list. li defines a list term. dl defines description list. dt defines a term in a descriptive list. dd defines the term in a descriptive list -->
+</body>
+
+</html>
