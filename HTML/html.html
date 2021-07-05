@@ -17,12 +17,48 @@
 
     <br />
     <!-- Paragraph -->
-    <p>Paragraph 1.0</p>
-    <p>Paragraph 2.0.
-        paragraph 2.1
-    </p>
-    <p style="color:red">A Paragraph</p>
-    <!-- style is used to format the text -->
+    <p>Paragraph 1</p>
+
+    <br />
+    <!-- Form Types -->
+    <form>
+        <input type="text"><br />
+
+        <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+        </select>
+        <select multiple>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+        </select><br />
+
+        <textarea></textarea><br />
+
+        <button>Button</button>
+
+        <fieldset>
+            <legend>Fieldset:</legend>
+            <label for="fieldset_1">Option 1:</label><br>
+            <input type="text" id="fieldset_1" value="Text Box"><br>
+            <label for="fieldset_2">Option 2:</label><br>
+            <input type="text" id="fieldset_2" value="Text Box"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+        <input list="options" name="browser">
+        <datalist id="options">
+            <option value="Option 1">
+            <option value="Option 2">
+            <option value="Option 3">
+            <option value="Option 4">
+        </datalist>
+        <input type="submit">
+    </form>
 
     <br />
     <!-- Hyperlink Embed -->
@@ -37,30 +73,26 @@
 
     <br />
     <!-- Image Embed -->
-    <img src="html5_logo.png" alt="HTML5 LOGO" width="100" height="100">
+    <img src="assets/html5_logo.png" alt="HTML5 LOGO" width="100" height="100">
     <!-- <img> is used to embed an image. src is to specify the path to the image, alt specifies alternate text for an image -->
 
     <br />
     <!-- Image Hyperlink -->
     <p>
         <a href="https://www.google.com" target="_blank">
-            <img src="google_logo.jpg" alt="Google Image Redirect" style="width:200px;height:100px;">
+            <img src="assets/google_logo.jpg" alt="Google Image Redirect" style="width:200px;height:100px;">
         </a>
         The image is hyperlinked
     </p>
 
     <br />
     <!-- Image Map -->
-    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    <img src="assets/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
     <map name="workmap">
         <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
         <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/IPhone">
         <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
     </map>
-
-    <br /><br />
-    <!-- Buttons -->
-    <button>This is a button</button>
 
     <br />
     <!-- Text Formats -->
@@ -175,7 +207,7 @@ Preformatted Text
         <dt>Milk</dt>
         <dd>- white cold drink</dd>
     </dl>
-            <!-- ul defines unordered list. ol defines ordered list. li defines a list term. dl defines description list. dt defines a term in a descriptive list. dd defines the term in a descriptive list -->
+    <!-- ul defines unordered list. ol defines ordered list. li defines a list term. dl defines description list. dt defines a term in a descriptive list. dd defines the term in a descriptive list -->
 </body>
 
 </html>
